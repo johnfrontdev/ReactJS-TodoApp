@@ -1,0 +1,58 @@
+li {
+    display: flex;
+    align-items: center;
+}
+
+.custom-checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.custom-checkbox input {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #7c7c7c;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.custom-checkbox input:checked ~ .checkmark {
+    background-color: #14a3c3;
+}
+
+.task-text-add {
+    margin-top: .6rem;
+    margin-left: 2rem;
+}
+
+.button-delete {
+    background-color: #14a3c3;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    color: #fff;
+    margin-left: 10px;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+#completedd {
+    text-decoration: line-through;
+}

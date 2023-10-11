@@ -1,0 +1,25 @@
+.header {
+    text-align: center;
+    background-color: rgb(20, 163, 195);
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 1rem 0;
+}
+
+.headerTitle {
+    color: antiquewhite;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-weight: 500;
+    font-size: 2.3rem;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 4px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+}
+
